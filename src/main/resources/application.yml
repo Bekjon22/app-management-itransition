@@ -7,8 +7,8 @@ spring:
     password: 43915632e8c2fe63226f725df0bc076c1712c5d5a9559fcece3dde64e41d1d7d
   jpa:
     hibernate:
-#      ddl-auto: update
-          ddl-auto: create
+      ddl-auto: update
+#          ddl-auto: create
     show-sql: true
     open-in-view: true
 
